@@ -1,0 +1,3 @@
+{
+  "path_for_saving_model": "./data/face-extraction-model.pt"
+}
