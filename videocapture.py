@@ -46,7 +46,6 @@ def captureFrames(cfg):
       cv2.destroyWindow("mac")
       break
     
-    
     #OBJECT DETECTION
     results = model(frame)    
     df = results.pandas().xyxy[0]
